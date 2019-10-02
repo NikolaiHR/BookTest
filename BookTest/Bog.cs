@@ -50,5 +50,18 @@ namespace BookTest
                 _isbn = value;
             }
         }
+
+        public Bog()
+        {
+            
+        }
+
+        public Bog(string forfatter, string titel, int sidetal, string isbn)
+        {
+            Forfatter = forfatter;
+            _titel = titel;
+            _sidetal = sidetal;
+            _isbn = isbn;
+        }
     }
 }
